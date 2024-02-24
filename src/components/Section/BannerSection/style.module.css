@@ -1,0 +1,172 @@
+.bannerContainer{
+    display: flex;
+    height: 70vh;
+    max-height: 70vh;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bannerTitle{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 35%;
+    height: 50%;
+}
+.user{
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 100%;
+    color: #FC5404;
+}
+.title{
+    font-weight: 800;
+    line-height: 58px;
+    font-size: 100%;
+}
+.imgContainer{
+    width: 32%;
+}
+.img{
+    height: 30%;
+    border-radius: 50%;
+    width: 100%;
+}
+.divImg {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    
+  }
+  
+  .divImg:after {
+    content: '';
+    position: absolute;
+    top: calc(-1 * 3px);
+    left: calc(-1 * 3px);
+    height: calc(100% + 3px * 2);
+    width: calc(100% + 3px * 2);
+    background: linear-gradient(60deg, #ee2f0d, #f05d0e, #fc3007, #fa5300, #f2a305,#f7b602,#ffde85);
+    border-radius: 50%;
+    z-index: -1 ;
+    animation: animatedgradient 2.4s ease alternate infinite;
+    background-size: 300% 300%;
+  }
+  
+  @keyframes animatedgradient {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+.animatedtext{
+    font-size: 3rem;
+    font-weight: 600;
+}
+.animatedtext span{
+    position: relative;
+}
+.animatedtext span::before{
+    content: 'portifolio!';
+    color: var(--color-primary--hover);
+}
+.animatedtext span::after{
+    content: '';
+    position: absolute;
+    width: calc(100% + 8px);
+    height: 100%;
+    background-color: 
+    #08080a;
+    
+    border-left: 2px solid #ff7f50;
+    right: -8px;
+    animation: cursor .8s infinite, typing 25s steps(14) infinite;
+}
+
+@keyframes cursor{
+    to{
+        border-left: 2px solid #ff7f5000;
+    }
+}
+@keyframes words{
+    0%,49%{
+        content: Gustavo;
+    }
+    50%,100%{
+        content: Programador;
+    }
+}
+@keyframes typing {
+    10%,15%,30%,50%,55%,60%,75%,90%,95%{
+        width: 0;
+    }
+    5%,20%,25%,40%,45%,65%,70%,80%,85%{
+        width: calc(100% + 8px)
+    }
+}
+
+.glow{
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+.glow::before, .glow::after {
+    content: '';
+    position: absolute;
+    top: calc(-1 * 3px);
+    left: calc(-1 * 3px);
+    border-radius: 50%;
+    background: linear-gradient(60deg, #ee2f0d, #f05d0e, #fc3007, #fa5300, #f2a305,#f7b602,#ffde85);
+    background-size: 300% 300%;
+    height: calc(100% + 3px * 2);
+    width: calc(100% + 3px * 2);
+    z-index: -1;
+    animation: animate 2.4s linear infinite;
+  }
+  @keyframes animate {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+  .glow::after {
+    filter: blur(30px);
+    opacity: .95
+      
+  }
+
+.btn{
+    color: white;
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background: #FC5404;
+    text-decoration: none;
+    z-index: 1;
+    overflow: hidden;
+    border-radius: 12px;
+
+}
+
+.btn::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background-color: var(--color-primary--hover);
+    z-index: -1;
+    transition: .5s;
+}
+.btn:hover::before{
+    width: 100%;
+}
+.btnprimary{
+    color: var(--color-white);
+    background-color: #FC5404;
+    height: 39px;
+    border-radius: 12px;
+    max-width: 140px;
+}

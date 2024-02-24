@@ -1,0 +1,12 @@
+.button-primary{
+    color: var(--color-white);
+    background-color: #FC5404;
+    height: 39px;
+    border-radius: 12px;
+    padding: 0 2rem;
+    max-width: 140px;
+}
+.button-primary:hover{
+    background-color: var(--color-primary--hover);
+    
+}

@@ -1,0 +1,12 @@
+.navContainer{
+    display: flex;
+    gap: 5rem;
+}
+.buttons{
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}

@@ -1,0 +1,35 @@
+.title{
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 48px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.section{
+    margin-top: 15vh;
+    height: 30vh;
+
+}
+.content{
+    
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    font-size: 120%;
+    
+    line-height: 2.1rem;
+    font-family: "Merriweather", serif;
+
+ 
+}
+
+.aboutContainer{
+    display: flex;
+    gap: 3rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+
+    
+}
