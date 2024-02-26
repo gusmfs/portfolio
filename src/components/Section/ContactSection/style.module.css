@@ -1,0 +1,106 @@
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+}
+.title{
+    font-weight: 800;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.contact form{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    gap: 1rem;
+}
+.contact form input{
+    font-size: 1.5rem;
+    width: 100% ;
+    color: white;
+    background: rgba(255, 255, 255, 0.05);
+    /* box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37); */
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(6px);
+    padding: 1rem;
+    border-radius: 6px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    
+}
+.inputBox{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    flex-direction: space-between;
+}
+.inputContainer{
+    display: flex;
+    gap: 1rem;
+}
+.footerContact{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 100%;
+    align-items: center;
+}
+.messageBox{
+    background: rgba(255, 255, 255, 0.05);
+    /* box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37); */
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(6px);
+    padding: 1rem;
+    border-radius: 6px;
+    width: 100%;
+
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+.message{
+    width: 100%;
+    text-decoration: none;
+    font-size: 1.6rem;
+    resize: none;
+    color: white;
+    font-family:sans-serif;
+
+}
+.btn {
+    color: white;
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 140px;
+    height: 100%;
+    background: #fc5404;
+    text-decoration: none;
+    z-index: 1;
+    overflow: hidden;
+    border-radius: 12px;
+    cursor: pointer;
+  }
+  
+  .btn::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background-color: var(--color-primary--hover);
+    z-index: -1;
+    transition: 0.5s;
+  }
+  .btn:hover::before {
+    width: 100%;
+  }
+
+.btnprimary{
+    color: var(--color-white);
+    background-color: #FC5404;
+    height: 39px;
+    border-radius: 12px;
+    max-width: 140px;
+}

@@ -6,6 +6,7 @@ import ProjectSection from "../components/Section/ProjectsSection";
 import TechSection from "../components/Section/TechSection";
 import style from "./style.module.css"
 import "./style.css";
+import ContactSection from "../components/Section/ContactSection";
 function HomePage() {
   return (
     <div className="page__container">
@@ -31,6 +32,7 @@ function HomePage() {
             <AboutSection />
             <TechSection />
             <ProjectSection />
+            <ContactSection/>
           </div>
         </DefaultTemplate>
     </div>

@@ -17,9 +17,9 @@ function ProjectSection() {
   //   }
   // },[])
   return (
-    <section>
+    <section id="projectsSection">
       <div className="container">
-        <div className={style.projectContainer} id="projectsSection">
+        <div className={style.projectContainer}>
           <h3 className={style.title}>Projetos</h3>
           <Swiper className={style.ul}
             spaceBetween={50}

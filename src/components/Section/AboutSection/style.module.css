@@ -7,8 +7,7 @@
 }
 .section{
     margin-top: 15vh;
-    height: 30vh;
-
+    height: 45vh;
 }
 .content{
     
@@ -16,11 +15,9 @@
     flex-direction: column;
     gap: 1rem;
     font-size: 120%;
-    
+    height: 100%;
     line-height: 2.1rem;
     font-family: "Merriweather", serif;
-
- 
 }
 
 .aboutContainer{
@@ -29,7 +26,4 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    height: 100%;
-
-    
 }

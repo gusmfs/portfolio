@@ -1,6 +1,4 @@
-.section{
-    margin-top: 15vh;
-}
+
 .title{
     font-weight: 800;
     font-size: 40px;
@@ -12,7 +10,6 @@
     flex-direction: column;
     gap: 3rem;
     align-items: center;
-    height: 50vh;
 }   
 .ul{
     display: flex;

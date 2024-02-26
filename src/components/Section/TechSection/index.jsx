@@ -3,9 +3,9 @@ import TechCard from "./TechCard/index.jsx";
 import style from "./style.module.css";
 function TechSection (){
     return(
-        <section className={style.section}>
+        <section className={style.section} id="techsSection">
             <div className="container">
-                <div className={style.techContainer} id="techsSection">
+                <div className={style.techContainer} >
                     <h3 className={style.title}>Tecnologias</h3>
                     <ul className={style.ul}>
                         {technologies.map(technologie => {
