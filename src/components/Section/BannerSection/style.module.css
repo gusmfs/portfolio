@@ -9,9 +9,9 @@
 .bannerTitle{
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    width: 35%;
-    height: 50%;
+    justify-content: space-evenly;
+    width: 41.25%;
+    height: 40%;
 }
 .user{
     font-weight: 700;
@@ -59,7 +59,7 @@
     100% { background-position: 0% 50%; }
   }
 .animatedtext{
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: 600;
 }
 .animatedtext span{
@@ -169,4 +169,72 @@
     height: 39px;
     border-radius: 12px;
     max-width: 140px;
+    width: 100%;
+}
+.dev{
+    font-size: 1.2rem;
+    font-weight: 800;
+}
+.nameContainer{
+    display: flex;
+    flex-direction: column;
+    gap: .6rem;
+    
+}
+.buttonsContainer{
+    width: 100%;
+    display: flex;
+    height: 15%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.imgLinkedin{
+    height: 19px;
+    width: 19px;
+}
+
+.socialContainer{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+.imgGit{
+    height: 29px;
+    width: 29px;
+}
+
+.btnsecondary{
+    color: var(--color-white);
+    background-color: #FC5404;
+    height: 39px;
+    border-radius:100px;
+    max-width: 39px;
+    width: 39px;
+
+}
+.btnsecondary{
+    color: white;
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background: #FC5404;
+    text-decoration: none;
+    z-index: 1;
+    overflow: hidden;
+}
+.btnsecondary::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background-color: var(--color-primary--hover);
+    z-index: -1;
+    transition: .5s;
+}
+.btnsecondary:hover::before{
+    width: 100%;
 }
