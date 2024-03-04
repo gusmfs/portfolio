@@ -3,6 +3,7 @@
   flex-direction: column;
   height: 100%;
   width: 100%;
+  min-height: 500px;
 }
 .imgProject {
   height: 50%;
@@ -65,4 +66,18 @@
   gap: 5rem;
   width: 100%;
   justify-content: center;
+}
+@media (max-width: 565px) {
+  .divInfo{
+    font-size: .8rem;
+  }
+  .btn{
+    width: 100px;
+  }
+  .divButtonsFooter {
+    display: flex;
+    gap: 2rem;
+    width: 100%;
+    justify-content: center;
+  }
 }

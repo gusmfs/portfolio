@@ -4,7 +4,6 @@
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    width: 5vw;
     height: 100%;
     background: #FC5404;
     text-decoration: none;
@@ -34,5 +33,22 @@
     background-color: #FC5404;
     height: 39px;
     border-radius: 12px;
-    max-width: 100px;
+    width: 100px;
+}
+@media(max-width: 1023px){
+    .btnprimary{
+        color: var(--color-white);
+        background-color: #FC5404;
+        height: 39px;
+        border-radius: 12px;
+        width: 70px;
+    }
+}
+
+
+@media(max-width:448px){
+    .btnprimary{
+        height: 30px;
+        width: 60px;
+    }
 }

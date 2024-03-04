@@ -1,3 +1,10 @@
 .logo{
     height: 40px;
 }
+
+
+@media(max-width:448px){
+    .logo{
+        height: 30px;
+    }
+}

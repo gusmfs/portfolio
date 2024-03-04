@@ -9,8 +9,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 20vh;
-    padding: 6rem;
+    
+    padding:3rem;
 }
 .title{
     font-weight: 800;

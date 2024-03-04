@@ -21,7 +21,7 @@ export const projects = [
   },
   {
     id: 2,
-    description: "Descrição do projeto",
+    description: "Este projeto front-end, construído com React, apresenta funcionalidades essenciais como tela de registro e login, além de uma intuitiva dashboard. A integração com uma API REST impulsiona a eficiência, permitindo requisições dinâmicas e rápidas. A aplicação consiste em cadastrar as tecnologias que o usuário domina, proporcionando uma gestão organizada de suas habilidades. Um ambiente interativo e ágil, onde o usuário molda seu perfil profissional com facilidade.",
     imgProject: hub,
     linkVercel: "https://kenziehub-gvs.vercel.app/",
     linkGit: "https://github.com/Kenzie-Academy-Brasil-Developers/kenziehub-gvs"
@@ -29,7 +29,7 @@ export const projects = [
   {
     id: 3,
     imgProject: netclient,
-    description: "Descrição do projeto",
+    description: "Desenvolvi um projeto full stack, utilizando tecnologias como Node.js, Express, PostgreSQL, Zod, TypeORM, React, e outras bibliotecas relevantes. O sistema apresenta uma tela de registro e login, além de uma dashboard focada na gestão de contatos. A ideia principal foi na robustez do backend, utilizando Node.js e Express para construir uma API eficiente e segura, enquanto o TypeORM facilitou a interação com o banco de dados PostgreSQL. A validação de dados foi implementada com Zod.",
     linkVercel: "https://netclient.vercel.app/",
     linkGit: "https://github.com/Kenzie-Academy-Brasil-Developers/netclient-gvs",
   },

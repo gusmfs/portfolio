@@ -1,7 +1,7 @@
 .bannerContainer{
     display: flex;
     height: 70vh;
-    max-height: 70vh;
+    width: 100%;
     justify-content: space-between;
     align-items: center;
 }
@@ -10,12 +10,14 @@
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    width: 41.25%;
-    height: 40%;
+    width: 40%;
+    height: 50%;
+    min-width: 190px;
+    gap: 1rem;
 }
 .user{
     font-weight: 700;
-    font-size: 3rem;
+    font-size: 3.3rem;
     line-height: 100%;
     color: #FC5404;
 }
@@ -25,12 +27,20 @@
     font-size: 100%;
 }
 .imgContainer{
-    width: 32%;
+    width: 35%;
+    height: 50%;
+    max-width: 361px ;
+    max-height: 303px;
+    min-width: 285px;
+    min-height: 300px;
+    
+    
 }
 .img{
-    height: 30%;
+    height: 100%;
     border-radius: 50%;
     width: 100%;
+    /* object-fit: contain; */
 }
 .divImg {
     position: relative;
@@ -186,6 +196,7 @@
     display: flex;
     height: 15%;
     align-items: center;
+    max-width: 480px;
     justify-content: space-between;
 }
 
@@ -197,7 +208,7 @@
 .socialContainer{
     display: flex;
     justify-content: center;
-    gap: 1rem;
+    gap: 0.6rem;
 }
 .imgGit{
     height: 29px;
@@ -237,4 +248,285 @@
 }
 .btnsecondary:hover::before{
     width: 100%;
+}
+
+@media(max-width: 1600px){
+    .bannerTitle{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        width: 35%;
+        
+        height: 50%;
+        gap: 1rem;
+    }
+    .imgContainer{
+        width: 30%;
+        height: 50%;
+        
+        
+    }
+    .img{
+        height: 100%;
+        border-radius: 50%;
+        width: 100%;
+    }
+    .divImg {
+        position: relative;
+        height: 100%;
+        width: 100%;
+        
+      }
+    .user{
+        font-weight: 700;
+        font-size: 2.2rem;
+        line-height: 100%;
+        color: #FC5404;
+    }
+    .dev{
+        font-size: 1rem;
+    }
+    .animatedtext{
+        font-size: 1.4rem;
+        
+    }
+}
+
+@media(max-width: 1023px){
+    .bannerTitle{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        width: 35%;
+        height: 50%;
+        gap: 0;
+        
+    }
+    .bannerContainer{
+        display: flex;
+        height: 70vh;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .user{
+        font-weight: 700;
+        font-size: 1.6rem;
+        line-height: 100%;
+        color: #FC5404;
+    }
+    .imgContainer{
+        width: 35%;
+        height: 50%;
+        
+        
+    }
+    .dev{
+        font-size: .825rem;
+    }
+    .animatedtext{
+        font-size: 1rem;
+        
+    }
+    .btnprimary{
+        color: var(--color-white);
+        background-color: #FC5404;
+        height: 39px;
+        border-radius: 12px;
+        max-width: 90px;
+        width: 100%;
+    }
+}
+@media(max-width:767px){
+    .bannerTitle{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        width: 35%;
+        height: 50%;
+        
+    }
+    .bannerContainer{
+        display: flex;
+        height: 70vh;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .imgContainer{
+        width: 35%;
+        height: 50%;
+        
+        
+    }
+    .user{
+        font-weight: 700;
+        font-size: 1.3rem;
+        line-height: 100%;
+        color: #FC5404;
+    }
+    .dev{
+        font-size: .625rem;
+    }
+    .animatedtext{
+        font-size: .800rem;
+        
+    }
+    .btnprimary{
+        color: var(--color-white);
+        background-color: #FC5404;
+        height: 30px;
+        border-radius: 12px;
+        max-width: 90px;
+        width: 100%;
+        
+    }
+    .git{
+        height: 19px;
+        width: 19px;
+    }
+    .btnsecondary{
+        height: 30px;
+        width: 30px;
+    }
+}
+@media(max-width:580px){
+    .bannerContainer{
+        display: flex;
+        height: 70vh;
+        width: 100%;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+        gap: 3rem;
+    }
+    .bannerTitle{
+        display: flex;
+        flex-direction: column;
+        justify-content:flex-start;
+        width: 100%;
+        align-items: center;
+        height: 50%;
+        min-width: 190px;
+        gap: 1rem;
+    }
+    .user{
+        font-weight: 700;
+        font-size: 2.6rem;
+        line-height: 100%;
+        color: #FC5404;
+    }
+    
+    .imgContainer{
+        width: 50%;
+        height: 50%;
+        display: flex;
+        align-items: flex-end;
+        justify-content:flex-end;
+
+    }
+    .img{
+        height: 100%;
+        border-radius: 50%;
+        width: 100%;
+    }
+    .divImg {
+        position: relative;
+        height: 100%;
+        width: 100%;
+        
+      }
+      .buttonsContainer{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        height: 15%;
+        align-items: center;
+        max-width: 480px;
+        gap: 1rem;
+    }
+    
+    .imgLinkedin{
+        height: 19px;
+        width: 19px;
+    }
+    
+    .socialContainer{
+        display: flex;
+        justify-content: center;
+        width: 19%;
+
+        gap: 0.6rem;
+    }
+    .nameContainer{
+        display: flex;
+        align-items: center;
+    }
+    .animatedtext{
+        font-size: 2.15rem;
+        
+    }
+    .dev{
+        font-size: 1rem;
+    }
+    
+    .animatedtext{
+        font-size: 1.5rem;
+        font-weight: 600;
+    }
+    .animatedtext span{
+        position: relative;
+    }
+    .animatedtext span::before{
+        content: 'portifolio!';
+        color: var(--color-primary--hover);
+    }
+    .animatedtext span::after{
+        content: 'portifolio!';
+        width: calc(100% + 8px);
+        height: 100%;
+        background-color: transparent;
+        animation:none;
+        border-left: none;
+        right: -8px;
+        color: var(--color-primary--hover);
+    }
+    
+}
+
+@media(max-width:448px){
+    .user{
+        font-size: 2.3rem;
+        font-weight: 700;
+        line-height: 100%;
+        color: #FC5404;
+        
+    }
+    .animatedtext{
+        font-size: 1.2rem;
+    }
+}
+@media(max-width:405px){
+    .user{
+        font-size: 2.1rem;
+        font-weight: 700;
+        line-height: 100%;
+        color: #FC5404;
+        
+    }
+    .animatedtext{
+        font-size: 1.1rem;
+    }
+}
+@media(max-width:376px){
+    .user{
+        font-size: 2rem;
+        font-weight: 700;
+        line-height: 100%;
+        color: #FC5404;
+        
+    }
+    .animatedtext{
+        font-size: 1rem;
+    }
 }

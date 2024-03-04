@@ -4,7 +4,7 @@ function HeaderNav ({type}){
         <div className={style.navContainer}>
             <a className={style.buttons} href="#aboutSection">Sobre</a>
             <a className={style.buttons} href="#techsSection">Stack</a>
-            <a className={style.buttons} href="#projectsSection">Projects</a>
+            <a className={style.buttons} href="#projectsSection">Projetos</a>
         </div>
     )
 }

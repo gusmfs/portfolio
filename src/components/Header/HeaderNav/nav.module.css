@@ -10,3 +10,33 @@
     font-family: Arial, Helvetica, sans-serif;
     
 }
+@media(max-width: 1023px){
+    .navContainer{
+        display: flex;
+        gap: 3rem;
+    }
+}
+@media(max-width: 767px){
+    .navContainer{
+        display: flex;
+        gap: 2rem;
+    }
+}
+@media(max-width: 589px){
+    .navContainer{
+        gap: 1rem;
+        
+    }
+    .buttons{
+        font-size: 16px;
+    }
+}
+@media(max-width:448px){
+    .navContainer{
+        gap: 1rem;
+
+    }
+    .buttons{
+        font-size: 13px;
+    }
+}
