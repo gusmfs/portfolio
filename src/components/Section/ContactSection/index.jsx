@@ -23,8 +23,6 @@ function ContactSection() {
         },
       );
     };
-    
-      
     return (
     <section className={style.section} id="contactSection">
       <div className="container">

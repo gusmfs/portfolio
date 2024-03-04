@@ -29,12 +29,10 @@
 .imgContainer{
     width: 35%;
     height: 50%;
-    max-width: 361px ;
-    max-height: 303px;
+    max-width: 521px ;
+    max-height: 503px;
     min-width: 285px;
     min-height: 300px;
-    
-    
 }
 .img{
     height: 100%;
