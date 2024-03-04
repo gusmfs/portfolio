@@ -34,9 +34,9 @@ function ContactSection() {
             <form ref={form} action="#" onSubmit={sendEmail}>
                 <div className={style.inputContainer}>
                         <div className={style.inputBox}>
-                            <input type='reset' placeholder="Nome" id="name" className={style.item} autoComplete="off" name="from_name"/>
-                            <input type='reset' placeholder="Email" id="email" className={style.item} autoComplete="off" name="from_email"/>
-                            <input type='reset' placeholder="Assunto" id="subject" className={style.item} autoComplete="off" name="subject"/>
+                            <input type="text" placeholder="Nome" id="name" className={style.item} autoComplete="off" name="from_name"/>
+                            <input type="text" placeholder="Email" id="email" className={style.item} autoComplete="off" name="from_email"/>
+                            <input type="text" placeholder="Assunto" id="subject" className={style.item} autoComplete="off" name="subject"/>
                         </div>
                 </div>
                 <div className={style.footerContact}>
