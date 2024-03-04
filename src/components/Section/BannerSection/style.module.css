@@ -279,7 +279,7 @@
       }
     .user{
         font-weight: 700;
-        font-size: 2.2rem;
+        font-size: 3rem;
         line-height: 100%;
         color: #FC5404;
     }
@@ -290,8 +290,94 @@
         font-size: 1.4rem;
         
     }
+    .buttonsContainer{
+        width: 86%;
+        display: flex;
+        height: 15%;
+        align-items: center;
+        max-width: 480px;
+        justify-content: space-between;
+    }
+    
+    .imgLinkedin{
+        height: 19px;
+        width: 19px;
+    }
+    
+    .socialContainer{
+        display: flex;
+        justify-content: center;
+        gap: 0.6rem;
+    }
 }
-
+@media(max-width: 1535px){
+    .bannerTitle{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        width: 35%;
+        
+        height: 50%;
+        gap: 1rem;
+    }
+    .imgContainer{
+        width: 30%;
+        height: 50%;
+        
+        
+    }
+    .img{
+        height: 100%;
+        border-radius: 50%;
+        width: 100%;
+    }
+    .divImg {
+        position: relative;
+        height: 100%;
+        width: 100%;
+        
+      }
+    .user{
+        font-weight: 700;
+        font-size: 2.5rem;
+        line-height: 100%;
+        color: #FC5404;
+    }
+    .dev{
+        font-size: 1rem;
+    }
+    .animatedtext{
+        font-size: 1.4rem;
+        
+    }
+    .buttonsContainer{
+        width: 86%;
+        display: flex;
+        height: 15%;
+        align-items: center;
+        max-width: 480px;
+        justify-content: space-between;
+    }
+    
+    .imgLinkedin{
+        height: 19px;
+        width: 19px;
+    }
+    
+    .socialContainer{
+        display: flex;
+        justify-content: center;
+        gap: 0.6rem;
+    }
+}
+@media (max-width:1280px){
+    .user{
+        font-weight: 700;
+        font-size: 2rem;
+        line-height: 100%;
+        color: #FC5404;
+    }
+}
 @media(max-width: 1023px){
     .bannerTitle{
         display: flex;
