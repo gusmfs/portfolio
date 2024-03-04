@@ -472,6 +472,7 @@
     .btnsecondary{
         height: 30px;
         width: 30px;
+        border-radius: 50%;
     }
 }
 @media(max-width:580px){
@@ -538,7 +539,7 @@
     .socialContainer{
         display: flex;
         justify-content: center;
-        width: 19%;
+        width: 25%;
 
         gap: 0.6rem;
     }
