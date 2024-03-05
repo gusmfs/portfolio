@@ -11,7 +11,7 @@
     overflow: hidden;
     border-radius: 12px;
     cursor: pointer;
-
+    width: 100px;
 }
 
 .btn::before{
