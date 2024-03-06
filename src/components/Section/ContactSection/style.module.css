@@ -60,6 +60,9 @@
     
     border: 1px solid rgba(255, 255, 255, 0.18);
 }
+.message:focus, input:focus{
+    outline: 0;
+}
 .message{
     width: 100%;
     text-decoration: none;
@@ -113,9 +116,5 @@
     }
     .contact form input{
         font-size: 1rem;
-    }
-
-    .message{
-        font-size: 1rem;
-    }
+    }    
 }
