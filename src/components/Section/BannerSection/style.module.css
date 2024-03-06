@@ -43,6 +43,7 @@
     height: 430px;
     border-radius: 100%;
     object-fit:cover;
+    
 }
 .divImg {
     position: relative;
@@ -433,7 +434,7 @@
         top: -2px;
         left: -2px;
         
-        width: 100%;
+        width: 101%;
         height: 100%;
         background: linear-gradient(60deg, #ee2f0d, #f05d0e, #fc3007, #fa4300, #f2a305,#f7b602,#ffde85);
         border-radius: 100%;
