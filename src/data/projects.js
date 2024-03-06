@@ -3,6 +3,7 @@ import jobs from "../assets/jobsfoto.png"
 import hamb from "../assets/hamburguerfoto.png"
 import hub from "../assets/kenziehubfoto.png"
 import netclient from "../assets/netclientfoto.png"
+import hambnew from "../assets/novaimghamb.png"
 export const projects = [
   {
     id: 0,
@@ -15,7 +16,7 @@ export const projects = [
   {
     id: 1,
     description: "Projeto de frontend tem como foco a criação de um dashboard para uma hamburgueria, utilizando a biblioteca React para proporcionar uma experiência de usuário fluida e interativa. O objetivo principal é oferecer aos usuários uma interface intuitiva e amigável para explorar o cardápio, realizar pedidos e gerenciar o carrinho de compras de forma eficiente.",
-    imgProject: hamb,
+    imgProject: hambnew,
     linkVercel: "https://hamburgueria-k.vercel.app/",
     linkGit: "https://github.com/Kenzie-Academy-Brasil-Developers/hamburgueria-k"
   },

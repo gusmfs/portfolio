@@ -36,3 +36,8 @@
     align-items: center;
     gap: .3rem;
 }
+@media(max-width:520px){
+    .p{
+        font-size: 0.570rem;
+    }
+}

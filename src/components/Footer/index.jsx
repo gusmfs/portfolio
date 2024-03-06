@@ -7,7 +7,7 @@ function Footer () {
         <footer className={style.footer}>
                 <div className={style.footerContainer}>
                     <div className={style.footerP}>
-                        <p className={style.p}>{`Todos os direitos reservados - ${user}`}</p>
+                        <p className={style.p}>{`Todos os direitos reservados - ${user} ` }</p>
                         <img className={style.img} src={img} alt="copyright"/>
                     </div>
                 </div>
