@@ -553,7 +553,32 @@
     .animatedtext{
         font-size: 1.2rem;
     }
+    .socialContainer{
+        display: flex;
+        justify-content: center;
+        width: 30%;
+
+        gap: 0.6rem;
+    }
 }
+@media(max-width:499px){
+    .divImg:after {
+        content: '';
+        position: absolute;
+        top: -3px;
+        left: -2px;
+        
+        width: 101%;
+        height: 101%;
+        background: linear-gradient(60deg, #ee2f0d, #f05d0e, #fc3007, #fa4300, #f2a305,#f7b602,#ffde85);
+        border-radius: 100%;
+        z-index: -1 ;
+        animation: animatedgradient 2.4s ease alternate infinite;
+        background-size: 300% 300%;
+    
+      }
+}
+
 @media(max-width:405px){
     .user{
         font-size: 2.1rem;
