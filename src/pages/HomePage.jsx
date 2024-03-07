@@ -27,12 +27,14 @@ function HomePage() {
         </div>
       </div>
         <DefaultTemplate>
+          <div className={style.contentContainer}>
             <BannerSection />
-          <div className={style.containerApp}>
-            <AboutSection />
-            <TechSection />
-            <ProjectSection />
-            <ContactSection/>
+            <div className={style.containerApp}>
+              <AboutSection />
+              <TechSection />
+              <ProjectSection />
+              <ContactSection/>
+            </div>
           </div>
         </DefaultTemplate>
     </div>

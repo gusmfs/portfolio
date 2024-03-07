@@ -2,6 +2,10 @@
     height: 40px;
 }
 
+.top0{
+    position: fixed;
+    top: 0;
+}
 
 @media(max-width:448px){
     .logo{

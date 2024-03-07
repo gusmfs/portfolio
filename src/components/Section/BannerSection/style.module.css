@@ -6,7 +6,10 @@
     align-items: center;
     gap: 3rem;
 }
-
+.top0{
+    position: absolute;
+    top: 0;
+}
 .bannerTitle{
     display: flex;
     flex-direction: column;

@@ -6,7 +6,9 @@ import { FaGithub } from "react-icons/fa";
 
 function BannerSection() {
   return (
-    <section className="container">
+    <section className="container" >
+      <div className={style.top0} id="bannerSection"></div>
+
       <div className={style.bannerContainer}>
         <div className={style.bannerTitle}>
           <div className={style.nameContainer}>
@@ -39,7 +41,6 @@ function BannerSection() {
                   className={style.btnsecondary}
                 >
                   <FaLinkedinIn size={20} />
-
                 </a>
               </button>
             </div>

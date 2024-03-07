@@ -4,7 +4,7 @@ import HeaderNav from "./HeaderNav";
 import styles from "./style.module.css";
 function Header (){
     return(
-        <header>
+        <header className={styles.header} >
             <div className="container">
                 <div className={styles.headerContainer}>
                     <HeaderLogo/>

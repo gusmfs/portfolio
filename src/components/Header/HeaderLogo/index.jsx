@@ -3,8 +3,9 @@ import style from "./style.module.css"
 function HeaderLogo (){
     return(
         <div>
-            <img className={style.logo} src={logo
-            } alt="Logo" />
+            <a href="#bannerSection">
+                <img className={style.logo} src={logo} alt="Logo" />
+            </a>
         </div>
     )
 }

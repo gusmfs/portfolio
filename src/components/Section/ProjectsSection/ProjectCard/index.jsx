@@ -12,8 +12,8 @@ function ProjectCard({img , name , description, linkGit, imgProject, linkVercel}
                         {/* //<img src={img} alt="git image" className={style.img} /> */}
                 </div>
                 <div className={style.divButtonsFooter}>
-                    <button className={style.btnprimary}><a href={linkGit} className={style.btn}>GitHub</a></button>
-                    <button className={style.btnprimary}><a href={linkVercel} className={style.btn}>Vercel</a></button>
+                    <button className={style.btnprimary}><a target="_blank" href={linkGit} className={style.btn}>GitHub</a></button>
+                    <button className={style.btnprimary}><a target="_blank" href={linkVercel} className={style.btn}>Vercel</a></button>
                 </div>
             </div>
 
