@@ -25,7 +25,7 @@ function BannerSection() {
               </a>
             </button>
             <div className={style.socialContainer}>
-              <button className={style.btnsecondary}>
+              <button  className={style.btnsecondary}>
                 <a
                   href="https://github.com/gusmfs"
                   target="_blank"
