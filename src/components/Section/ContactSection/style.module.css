@@ -117,4 +117,11 @@
     .contact form input{
         font-size: 1rem;
     }    
+    .message{
+        font-size: 1rem;
+        resize: none;
+        color: white;
+        font-family:sans-serif;
+        
+    }
 }
